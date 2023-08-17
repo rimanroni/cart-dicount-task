@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme ="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+ 
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class=" ">
+    <h1 class="text-5xl text-green-400 text-center font-bold mt-4">WelCome My Shop <span>!!!</span> </h1>
+   <div class="mt-20 gap-x-5 px-4 gap-y-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div class="card  bg-base-100 shadow-xl">
+        <figure><img src="https://i.pinimg.com/564x/2b/f2/98/2bf298f5e5df48733c9bbcb8bd355f44.jpg" class="w-1/2" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Price <span id="priceBag">1000</span></h2>
+          <h2 class="text-2xl text-green-400 font-semibold">30 % discount </h2>
+          <p>Now Price :  <span id="priceNow" class="text-3xl">00</span></p>
+          <div class="card-actions  ">
+            <button class="btn btn-primary" id="discBtn">Apply Discount</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card  bg-base-100 shadow-xl">
+        <figure><img src="https://i.pinimg.com/564x/c5/7a/72/c57a722b21baf5dcbcab22e2113c958f.jpg" class="w-1/2" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Price <span id="priceBag2">1500</span></h2>
+          <h2 class="text-2xl text-green-400 font-semibold">40 % discount </h2>
+          <p>Now Price :  <span id="priceNow2" class="text-3xl">00</span></p>
+          <div class="card-actions  ">
+            <button class="btn btn-primary" id="discBtn2">Apply Discount</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card  bg-base-100 shadow-xl">
+        <figure><img src="https://i.pinimg.com/564x/0a/c6/1b/0ac61bd2e38611d65015738edaf577b1.jpg" class="w-1/2" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Price <span id="priceBag3">2000</span></h2>
+          <h2 class="text-2xl text-green-400 font-semibold">35 % discount </h2>
+          <p>Now Price :  <span id="priceNow3" class="text-3xl">00</span></p>  <div class="card-actions  ">
+            <button class="btn btn-primary" id="discBtn3">Apply Discount</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card  bg-base-100 shadow-xl">
+        <figure><img src="https://i.pinimg.com/564x/f6/0a/a9/f60aa97fcf3b4146a61f7057e1ba8fbe.jpg" class="w-32" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Price <span id="priceBag4">2200</span></h2>
+          <h2 class="text-2xl text-green-400 font-semibold">15 % discount </h2>
+           <p>Now Price : <span id="priceNow4" class="text-3xl">00</span></p>   
+             <div class="card-actions  ">
+            <button class="btn btn-primary" id="discBtn4">Apply Discount</button>
+          </div>
+        </div>
+      </div>
+   </div>
+
+
+
+   <div class="grid grid-cols-1 md:grid-cols-2  mb-10 gap-4 w-9/12 mx-auto mt-40">
+    <div class="card card-compact   bg-base-100 shadow-xl">
+        <figure><img src="https://i.pinimg.com/564x/3e/59/e8/3e59e8167f4556689cdf4f67475651c8.jpg" class="h-56" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title text-green-400">M709-A HeadPhone</h2>
+          <h2 class="text-4xl">Price : <span id="price1">2983</span>
+          </h2>
+           <input type="text" id="inputFild1" class="outline-none p-2 border-b-2 w-9/12" placeholder="Type 'Disc' and win Discount 20%  ">
+           <h2 class="text-3xl">Now Your Price <span id="nowPrice1">00</span></h2>
+          <div class="card-actions  ">
+            <button class="btn btn-primary" id="btn-1">Apply Discount</button>
+          </div>
+        </div>
+      </div>
+
+    <div class="card card-compact  bg-base-100 shadow-xl">
+        <figure><img src="https://i.pinimg.com/564x/10/9c/3f/109c3f35a1ed7308892c66135e029352.jpg"  class="h-56" alt="Shoes" /></figure>
+        <div class="card-body">
+            <h2 class="card-title text-green-400">G70Y-A HeadPhone</h2>
+            <h2 class="text-4xl">Price : <span id="price2">2783</span>
+            </h2>
+            <input type="text" id="inputFild2" class="outline-none p-2 border-b-2 w-9/12" placeholder="Type 'DipuMoni' and win Discount 15%  ">
+            <h2 class="text-3xl">Now Your Price <span id="nowPrice2">00</span></h2>
+             <div class="card-actions ">
+            <button class="btn btn-primary" id="btn-dicount-2">Apply Discount</button>
+          </div>
+        </div>
+      </div>
+   </div>
+   <script src="product.js"></script>
+</body>
+</html>
